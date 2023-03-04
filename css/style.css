@@ -1,0 +1,56 @@
+/*fonts family*/
+@font-face{
+	font-family: Lato-Regular,sans-serif;
+	scr: url(../fonts/lato/Lato-Regular.ttf);
+}
+@font-face{
+	font-family: Lato-Medium,sans-serif;
+	scr: url(../fonts/lato/Lato-Medium.ttf);
+}
+@font-face{
+	font-family: Lato-Bold,sans-serif;
+	scr: url(../fonts/lato/Lato-Bold.ttf);
+}
+@font-face{
+	font-family: Roboto-Regular,sans-serif;
+	scr: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face{
+	font-family: Roboto-Medium,sans-serif;
+	scr: url(../fonts/roboto/Roboto-Medium.ttf);
+}
+
+/*common code*/
+body{
+	font-family: Roboto-Regular,sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #8e8e8e;
+}
+/*header start*/
+.head{
+	background-color: white;
+	margin: 10px 0 15px;
+}
+.h_img{}
+.h_img img{}
+.menu{}
+.menu ul{}
+.menu ul li{}
+.menu ul li a{
+	transition: .50s;
+}
+.menu ul li a:hover{
+	color:black;
+}
+/*header end*/
+/*banner start*/
+.salider{}
+.c_h2{
+	margin-bottom: 150px;
+}
+.c_p{
+	margin-bottom: 200px;
+}
+/*banner end*/
+
